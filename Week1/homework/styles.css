@@ -1,0 +1,12 @@
+h1{
+	font-family: 'Bad Script', cursive;
+	text-align: right;
+	color: #8A534C;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #090A38;
+	background: url("images/ga4.jpg");
+	background-size: cover;
+}
