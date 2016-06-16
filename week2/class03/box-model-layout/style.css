@@ -1,0 +1,39 @@
+.container {
+	background-color: gray;
+	/*height: 200px;*/
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.common {
+	width: 90%;
+	height: 100px;
+	background-color: tomato;
+	margin: 10px;
+	margin-left: 5%;
+	padding: 10px;
+	text-align: center;
+}
+
+#nav {
+	text-align: center;
+	background-color: black;
+	height: 50px;
+	line-height: 50px;
+}
+
+#nav a {
+	color: white;
+}
+
+#pOne {
+	color: purple;
+}
+
+#pTwo {
+	color: green;
+}
+
+#pThree {
+	color: yellow;
+}
