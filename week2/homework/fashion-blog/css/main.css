@@ -1,0 +1,93 @@
+.container {
+	width: 720px;
+	padding: 54px;
+}
+
+body {
+	font-family: lato; 
+	font-weight: 300;
+	font-size: 14px;
+	color: #444444;
+	line-height: 1.5;
+}
+
+header h1{
+	color: red;
+	font-weight: 300;
+	font-size: 64px;
+	line-height: .5;
+}
+
+header h2 {
+	color: #444444;
+	font-size: 36px; 
+	font-weight: 300;
+	line-height: .5;
+}
+
+nav {
+	margin-top: 15px;
+    margin-bottom: 24px;
+}
+
+nav a {
+	font-size: 18px;
+	color: #dddddd;
+	padding: 5px;
+}
+
+nav a:hover {
+	color: black;
+}
+
+a {
+	color: #DD0000;
+}
+
+a:hover {
+	color: #aa0000;
+}
+
+.section {
+	margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.date {
+	font-size: 24px;
+	color: #cccccc;
+	font-weight: 300;
+	line-height: .5;
+}
+
+.blogTitle {
+	font-size: 24px;
+	color: black;
+	font-weight: 300;
+	line-height: .5
+}
+
+.section a {
+	color: #DD0000;
+	font-weight: 700;
+	text-decoration: none;
+	float: right;
+}
+
+.section a:hover {
+	color: #aa0000;
+}
+
+img {
+	width: 720px;
+}
+
+footer {
+	padding: 16px 0px;
+	font-size: 16px;
+}
+
+.line {
+	width: 720px;
+	padding: 16px 0px;
+	border-bottom: 1px #cccccc solid;
