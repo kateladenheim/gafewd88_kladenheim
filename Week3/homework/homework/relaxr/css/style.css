@@ -150,7 +150,7 @@ section h2 {
 }
 
 section a {
-  text-align: right;
+  float: right;
   font-weight: 600;
   text-decoration: none;
   color: #033048;
