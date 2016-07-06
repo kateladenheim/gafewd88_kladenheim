@@ -15,10 +15,14 @@ document.write(firstName + " " + lastName);
 //function definition
 
 function doSomething(){
-	alert('this is an alert');
+	alert('do not worry, you will be green soon');
+	myPara.style.color = "green";
 }
 
-doSomething()
-
 document.getElementById('greeting').style.color = "red";
-document.getElementById('myPara').style.color = "green";
+
+var myPara = document.getElementById('myPara');
+
+//myPara.style.color = "green";
+
+myPara.onclick = doSomething;
