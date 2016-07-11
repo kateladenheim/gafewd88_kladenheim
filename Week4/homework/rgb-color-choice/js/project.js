@@ -1,11 +1,12 @@
 // 1. Use document.getElementById() and assign the .onclick event to #color-button
 
-document.getElementById('color-button').onclick = changeColor;
+document.getElementById('color-button').onclick = changeColor("red");
 
 // 2. Write a function, named changeColor, that is called when #color-button is clicked
 
-function changeColor (){
-	var red = document.getElementById('red').value;
+function changeColor (div1,div2,div3) {
+	console.log(div1);
+	var red = document.getElementById('div1').value;
 	var blue = document.getElementById('blue').value;
 	var green = document.getElementById('green').value;
 	
@@ -13,7 +14,7 @@ function changeColor (){
 
 	document.getElementById('colorful-text').innerHTML = colorStr;
 
-	document.getElementById('wrapper').style.background = colorStr
+	document.getElementById('wrapper').style.background = colorStr;
 }
 
 // 3. Inside of the function changeColor, use variables to store the <input> values from #red, #green, and #blue
@@ -24,10 +25,6 @@ function changeColor (){
 // rgb(x, y, z)
 // - If the user enters: 100, 150, and 200, colorStr should be: rgb(100, 150, 200)
 
-
-
 // 5. Use .innerHTML to change the text inside of #colorful-text to colorStr
-
-
 
 // 6. Use .style.background to change the background of #wrapper to colorStr
