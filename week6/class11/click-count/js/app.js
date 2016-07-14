@@ -1,3 +1,5 @@
+
+
 // Program Flow
 //
 // 1: User clicks on #clickme (this element)
@@ -9,4 +11,22 @@
 
 $(document).ready(function () {
 
-})
+var clicknum = 0
+
+$('#clickme').click(function(){
+	clicknum ++;
+	$('#click-num').text(clicknum);
+
+	if (clicknum == 5) {
+		$('#body').css('background-color', 'red');
+	} else if (clicknum == 10) {
+		$('#body').css('background-color', 'green');
+	} else if (clicknum == 15) {
+		$('#body').css('background-color', 'blue');
+	} else {
+		$('#body').css('background-color', 'black');
+	}
+
+});
+
+});
