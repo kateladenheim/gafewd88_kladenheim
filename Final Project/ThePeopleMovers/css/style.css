@@ -1,0 +1,84 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	height: 500px;
+	width: 100%;
+	background-image: url("../images/TPMsite-6.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav {
+	background-color: 
+}
+
+nav ul {
+  float: left;
+  list-style-type: none;
+}
+
+nav li{
+  display: inline-block;
+  padding: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#mission {
+	margin: 20px;
+	padding: 100px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.activity {
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 25%;
+	height: 400px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#choreography {
+	background-image: url("../images/TPMsite-5.jpg");
+
+
+#production {
+	background-image: url("../images/TPMsite-8.jpg");
+}
+
+#design {
+	background-image: url("../images/TPMsite-9.jpg");
+}
+
+#aboutKate {
+	margin: 20px;
+	padding: 100px;
+}
+
+#photoBio {
+	float: left;
+}
+
+#upcoming {
+	margin: 20px;
+
+}
