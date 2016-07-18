@@ -4,7 +4,7 @@ $(document).ready(function () {
 	var solution = $('#solution').val();
 
 	$('#celcius').click(function(){
-		$('#soluion').html((temp - 32) / 1.8);
+		$('#soluion').text((temp - 32) / 1.8);
 
 		if (solution < 20) {
 			$('#body').css('background-color', '#75b7bb');
@@ -15,7 +15,7 @@ $(document).ready(function () {
 	});
 
 	$('#farenheit').click(function() {
-		$('#solution').html(temp * 1.8 + 32);
+		$('#solution').text(temp * 1.8 + 32);
 
 		if (solution < 70) {
 			$('#body').css('background-color', '#75b7bb');
