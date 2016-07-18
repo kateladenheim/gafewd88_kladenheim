@@ -7,7 +7,7 @@ $(document).ready(function () {
 		temp = parseInt($('#temperature').val());
 		$('#solution').html((temp - 32) / 1.8);
 
-		var solution = $('#solution').val();
+		solution = parseInt($('#solution').val());
 
 		if (solution <= 20) {
 			$('#body').css('background-color', '#75b7bb');
@@ -21,7 +21,7 @@ $(document).ready(function () {
 		temp = parseInt($('#temperature').val());
 		$('#solution').html(temp * 1.8 + 32);
 
-		var solution = $('#solution').val();
+		solution = parseInt($('#solution').val());
 
 		if (solution <= 70) {
 			$('#body').css('background-color', '#75b7bb');
