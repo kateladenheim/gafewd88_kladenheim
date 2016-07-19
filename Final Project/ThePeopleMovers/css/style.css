@@ -20,10 +20,6 @@ header {
 	background-repeat: no-repeat;
 }
 
-nav {
-	background-color: 
-}
-
 nav ul {
   float: left;
   list-style-type: none;
@@ -35,21 +31,30 @@ nav li{
 }
 
 nav a {
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   text-decoration: none;
+  color: #ba0913;
+}
+
+nav a:hover {
+	color: rgba(186, 9, 19, 0.7);
 }
 
 #mission {
 	margin: 20px;
-	padding: 100px;
+	padding: 130px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 26px;
+}
+
+section{
+	padding: 25px;
 }
 
 .activity {
-	margin-left: 50px;
-	margin-right: 50px;
+	margin: 25px;
+	padding: 25px;
 	width: 25%;
 	height: 400px;
 	float: left;
@@ -59,14 +64,17 @@ nav a {
 
 #choreography {
 	background-image: url("../images/TPMsite-5.jpg");
-
+	background-position: right;
+}
 
 #production {
 	background-image: url("../images/TPMsite-8.jpg");
+	background-position: right;
 }
 
 #design {
 	background-image: url("../images/TPMsite-9.jpg");
+	background-position: center;
 }
 
 #aboutKate {
