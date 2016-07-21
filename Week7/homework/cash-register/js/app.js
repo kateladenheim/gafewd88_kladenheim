@@ -15,4 +15,17 @@
 
 $(document).ready(function () {
 
-})
+	var total = 0;
+
+	$('#entry').submit(function(e){
+		var cost = parseFloat($('#newEntry').val());
+		$('#entries').append('<tr>' + '<td>' + '</td>' + '<td>' + cost + '</td>' + '</tr>');
+
+		total = parseFloat(total + cost);
+		$('#total').html(total);
+
+		e.preventDefault();
+
+		$('#newEntry').val('');
+	});
+});

@@ -18,5 +18,21 @@
 
 
 $(document).ready(function() {
+	/* $('#city-type').change(function(){
+		var city = $('#city-type').val();
+		$('body').removeClass();
+		$('body').addClass(city);
+	}) */
 
+	$(this).change(function(){
+		var city = $('#city-type').val();
+		$('body').removeClass();
+		$('body').addClass(city);
+	})
+
+	/*$('#city-type').change(function(){
+		var city = $('#city-type').val();
+		$('body').attr('class');
+		$('body').toggleClass(city);
+	}) */
 });

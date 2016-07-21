@@ -53,7 +53,8 @@ section{
 }
 
 .activity {
-	margin: 25px;
+	margin-right: 25px;
+	margin-left;
 	padding: 25px;
 	width: 25%;
 	height: 400px;
@@ -88,5 +89,9 @@ section{
 
 #upcoming {
 	margin: 20px;
+	padding: 100px;
+}
+
+footer {
 
 }
