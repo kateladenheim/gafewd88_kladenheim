@@ -15,7 +15,8 @@ body {
 
 .container {
 	width: 100%;
-	height: 100%;
+	height: 100%
+	margin: 0 auto;
 }
 
 header {
@@ -44,16 +45,12 @@ nav {
 
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
-
 	/* Firefox */
 	-moz-transform: rotate(-90deg);
-
 	/* IE */
 	-ms-transform: rotate(-90deg);
-
 	/* Opera */
 	-o-transform: rotate(-90deg);
-
 	/* Internet Explorer */
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
@@ -79,16 +76,17 @@ nav a:hover {
 }
 
 hr {
-	margin-right: 175px;
-	margin-left: 175px;
+	margin-right: 17.5vw;
+	margin-left: 17.5vw;
 }
 
 #vision-text {
-	margin-left: 175px;
-	margin-top: 25px;
-	width: 450px;
-	text-align: left;
-	font-size: 22px;
+	margin-left: 17.5vw;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    width: 35vw;
+    text-align: left;
+    font-size: 22px;
 }
 
 #vision img {
@@ -141,9 +139,31 @@ hr {
     width: 40vw;
 }
 
-#upcoming {
-	margin: 20px;
-	padding: 100px;
+#upcoming img {
+	margin: 0;
+	float: right;
+}
+
+#upcoming h1 {
+	float: left;
+	margin: 50;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.upcoming-info {
+	margin-left: 21vw;
+    width: 60vw;
+    padding: 1vw;
+    vertical-align: bottom;
 }
 
 footer {
