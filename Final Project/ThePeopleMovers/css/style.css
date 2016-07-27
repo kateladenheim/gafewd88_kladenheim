@@ -24,13 +24,14 @@ header {
 }
 
 header h1 {
-	font-size: 36px;
-	line-height: 1.2;
-	font-weight: 600;
-	text-align: left;
-	position: absolute;
-  	left: 750px;
-  	top: 300px;
+	margin-top: 7vw;
+    font-size: 3.5em;
+    line-height: 1;
+    font-weight: 600;
+    text-align: left;
+    position: absolute;
+    left: 750px;
+    top: 300px;
 }
 
 header img {
@@ -40,8 +41,9 @@ header img {
 
 nav {
 	float: right;
-	bottom: 0;
-	margin-top: 250px;
+	margin-right: 3vw;
+	margin-top: 7vw;
+    transform-origin: 100% 50%;
 
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
@@ -139,14 +141,16 @@ hr {
     width: 40vw;
 }
 
-#upcoming img {
-	margin: 0;
-	float: right;
+#upcoming-title {
+	margin-left: 10vw;
+    margin-top: 0vw;
+    position: relative;
+    z-index: 10;
 }
 
 #upcoming h1 {
 	float: left;
-	margin: 50;
+	transform-origin: 100% 50%;
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
 	/* Firefox */
@@ -159,11 +163,31 @@ hr {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.upcoming-info {
-	margin-left: 21vw;
-    width: 60vw;
+#upcoming-image {
+	overflow: auto;
+    display: inline;
+}
+
+#upcoming img {
+	float: right;
+    display: inline-block;
+    width: 77vw;
+}
+
+#upcoming p {
+	float: right;
+    display: inline-block;
+    text-align: right;
+    position: relative;
     padding: 1vw;
-    vertical-align: bottom;
+    z-index: -5;
+    margin-top: 37.5vw;
+    margin-bottom: 0;
+}
+
+.upcoming-info {
+	margin-left: 23vw;
+    width: 60vw;
 }
 
 footer {
