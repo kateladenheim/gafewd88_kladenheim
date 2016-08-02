@@ -26,13 +26,12 @@ header {
 }
 
 header h1 {
-	font-size: 3.5em;
+	font-size: 5vw;
     line-height: 1em;
     font-weight: 600;
     text-align: left;
-    position: absolute;
-    left: 60vw;
-    top: 21vw;
+    float: left;
+    margin-top: 24vw;
     padding-left: 1vw;
 }
 
@@ -40,13 +39,15 @@ header img {
 	padding-top: 7vw;
 	padding-left: 0px; 
 	width: 60%;
+	float: left;
 }
 
 nav {
-	float: right;
-    margin-right: 3vw;
+	position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 4vw;
     transform-origin: 100% 50%;
-
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
 	/* Firefox */
@@ -180,16 +181,9 @@ hr {
     width: 40vw;
 }
 
-#upcoming-title {
-	margin-left: 10vw;
-    margin-top: 0vw;
-    position: relative;
-    z-index: 10;
-}
-
-#upcoming h1 {
-	float: left;
-	transform-origin: 100% 50%;
+#upcoming-image h1 {
+	float: right;
+	transform-origin: 75% 50%;
 	/* Safari */
 	-webkit-transform: rotate(-90deg);
 	/* Firefox */
@@ -220,6 +214,11 @@ hr {
     padding: 1vw;
 }
 
+#click-details p {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
 footer {
 	
 }
@@ -229,5 +228,7 @@ footer {
 width: 100%;
 max-width: ***px;
 box-sizing: border-box;
+
+USE TRANSITION PROPERTY TO PAD MEDIA QUERIES** NOT ANIMATIONS
 
 */
