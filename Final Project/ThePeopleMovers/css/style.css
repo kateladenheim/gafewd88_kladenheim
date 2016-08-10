@@ -105,6 +105,10 @@ hr {
 	padding-top: 50px;
 }
 
+.activity .row div {
+	border: solid 2px pink;
+}
+
 .activity {
 	padding-bottom: 12vw;
 }
@@ -135,7 +139,7 @@ hr {
 	display: inline;
     float: left;
     margin-top: 0;
-    margin-left: 17vw;
+    margin-left: 3vw;
 }
 
 .activity p {
@@ -220,6 +224,54 @@ hr {
 }
 
 footer {
+	
+}
+
+
+/******************* BEGIN MEDIA QUERIES ******************/ 
+
+@media screen and (max-width: 1024px) {
+	nav {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.rectangle {
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 246px;
+    height: 246px;
+    content: ".";
+    position: absolute;
+    display: inline-block;
+    float: left;
+    left: 15vw;
+    z-index: -1;
+}
+
+.workImg {
+	position: relative;
+    float: left;
+    left: 19vw;
+    top: 4vw;
+}
+
+.activity h2 {
+	display: inline;
+    float: left;
+    margin-top: 0;
+    margin-left: 3vw;
+}
+
+.activity p {
+	display: inline-block;
+    margin-top: 8vw;
+    margin-left: -8vw;
+    width: 40vw;
+}
 	
 }
 
